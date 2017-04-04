@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<addressBook>
+  <owner>Michael</owner>
+  <person>
+    <name>John</name>
+    <address>
+      <street>Dubbeldamstraat 45</street>
+      <postalCode>1548XP</postalCode>
+    </address>
+  </person>
+  <person>
+    <name>Linda</name>
+    <address>
+      <street>Fort 3</street>
+      <postalCode>4621HS</postalCode>
+    </address>
+  </person>
+  <person>
+    <name>Sabine</name>
+    <address>
+      <street>Gagelrijs 184</street>
+      <postalCode>6755TG</postalCode>
+    </address>
+  </person>
+</addressBook>
+

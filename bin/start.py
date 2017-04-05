@@ -1,10 +1,6 @@
-from lib.helloworld import hi
-from lib.textfile import printtext
-import sys
-from lib.xmlextension import processxml
-from lib.xmlextension import processxml_get_block
+""" Print to terminal
 
-""" Prints to terminal
+    Usage: python -m bin.script param1 [Param 2]
 
     Args:
         param1: [hi|txt|xml|name]
@@ -15,6 +11,13 @@ from lib.xmlextension import processxml_get_block
                        info from that block
         param2: String to search wrt param1
 """
+
+from lib.helloworld import hi
+from lib.textfile import printtext
+import sys
+from lib.xmlextension import processxml
+from lib.xmlextension import processxml_get_block
+
 
 def main(params):
     if params[1] == 'hi':
